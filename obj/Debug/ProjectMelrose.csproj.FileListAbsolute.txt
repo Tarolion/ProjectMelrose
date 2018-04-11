@@ -1,0 +1,7 @@
+G:\Temp\01 - Eve\01 - ProjectMelrose\ProjectMelrose\ProjectMelrose\bin\Debug\ProjectMelrose.exe.config
+G:\Temp\01 - Eve\01 - ProjectMelrose\ProjectMelrose\ProjectMelrose\bin\Debug\ProjectMelrose.exe
+G:\Temp\01 - Eve\01 - ProjectMelrose\ProjectMelrose\ProjectMelrose\bin\Debug\ProjectMelrose.pdb
+G:\Temp\01 - Eve\01 - ProjectMelrose\ProjectMelrose\ProjectMelrose\obj\Debug\ProjectMelrose.csprojResolveAssemblyReference.cache
+G:\Temp\01 - Eve\01 - ProjectMelrose\ProjectMelrose\ProjectMelrose\obj\Debug\ProjectMelrose.csproj.CoreCompileInputs.cache
+G:\Temp\01 - Eve\01 - ProjectMelrose\ProjectMelrose\ProjectMelrose\obj\Debug\ProjectMelrose.exe
+G:\Temp\01 - Eve\01 - ProjectMelrose\ProjectMelrose\ProjectMelrose\obj\Debug\ProjectMelrose.pdb
