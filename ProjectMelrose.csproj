@@ -44,8 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Game\EveOnline.cs" />
+    <Compile Include="Discord\DiscordManager.cs" />
+    <Compile Include="Memory\Game\EveOnline.cs" />
     <Compile Include="Memory\Kernel32.cs" />
+    <Compile Include="Memory\MemoryDictEntry.cs" />
+    <Compile Include="Memory\MemoryManager.cs" />
+    <Compile Include="Memory\MemoryNode.cs" />
     <Compile Include="Memory\MemoryReader.cs" />
     <Compile Include="Memory\ProcessMemoryReader.cs" />
     <Compile Include="Program.cs" />

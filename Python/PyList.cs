@@ -16,6 +16,7 @@ namespace ProjectMelrose
 		readonly public UInt32? ob_item;
 
 		readonly public UInt32[] Items;
+        public List<PyObject> Objects;
 
 		public PyList(
 			Int64 BaseAddress,
@@ -30,5 +31,15 @@ namespace ProjectMelrose
 				Items = MemoryReader.ReadArray<UInt32>(ob_item.Value, (int)ob_size.Value * 4);
 			}
 		}
+
+        public void ReadObjects(IMemoryReader MemoryReader)
+        {
+            Objects = new List<PyObject>();
+
+            foreach(UInt32 address in Items)
+            {
+                Objects.Add(new PyObject(address, MemoryReader));
+            }
+        }
 	}
 }
